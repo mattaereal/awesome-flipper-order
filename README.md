@@ -1,6 +1,9 @@
-# awesome-flipper-zero's ordered dump (matta's pick)
+# awesome-flipper-zero's ordered dump
 This repo is an experiment. I tries to compile curated and reproducible sources of information for the Flipper Zero.
-It starts by building the latest version of Xtreme Firmware, and then creates, a folder to be uploaded to the SD card.
+You can start by building the latest version of Xtreme Firmware which in the future will also have curated apps of my liking.
+Use the scripts below to generate in a more ordered fashion the contents to be uploaded to the SD card.
+
+_Note: At the moment of this writing, the nfc nested attack on the flipper zero does not compile on purpose, api issues._
 
 ## Usage
 - `mattschoice.sh`: Creates a folder named `dumps` based on the checklist below to be dumped directly into the SD card.
