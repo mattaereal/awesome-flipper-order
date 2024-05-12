@@ -1,4 +1,4 @@
-# awesome-flipper-zero matta's pick
+# awesome-flipper-zero's ordered (matta's pick)
 This repo is an experiment. I tries to compile curated and reproducible sources of information for the Flipper Zero.
 It starts by building the latest version of Xtreme Firmware, and then creates, a folder to be uploaded to the SD card.
 
@@ -16,7 +16,7 @@ It starts by building the latest version of Xtreme Firmware, and then creates, a
 - [x] **Databases & Dumps**
   - [x] **Generic scripts/payloads**
     - [x] [`Flipper-Zero-Scripts`](https://github.com/jkctech/Flipper-Zero-Scripts)
-    - [x] [Flipper Toolbox](https://github.com/evilpete/flipper_toolbox)
+    - [x] [`Flipper Toolbox`](https://github.com/evilpete/flipper_toolbox)
 
   - [x] **Sub-GHz**
     - [x] [`FlipperZero-TouchTunes` Dumps of TouchTune's remote.](https://github.com/jimilinuxguy/flipperzero-touchtunes)
