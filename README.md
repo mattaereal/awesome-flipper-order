@@ -3,15 +3,19 @@ This repo is an experiment. I tries to compile curated and reproducible sources 
 You can start by building the latest version of Xtreme Firmware which in the future will also have curated apps of my liking.
 Use the scripts below to generate in a more ordered fashion the contents to be uploaded to the SD card.
 
-_Note: At the moment of this writing, the nfc nested attack on the flipper zero does not compile on purpose, api issues._
+
 
 ## Usage
 - `mattschoice.sh`: Creates a folder named `dumps` based on the checklist below to be dumped directly into the SD card.
 - `awesome-pack-mess.sh`: Creates two folders with `microsd` string, from the awesome-flipperzero-pack to be put inside the SD card.
 - `xtreme-build.sh`: Builds the Xtreme-Firmware. Has a placeholder for custom apps.
+- **Requirements:** `wget`, `curl`, `7zq`
 
-**Use under your own risk. It's pretty hardcoded.**
-**Requirements:** `wget`, `curl`, `7zq`
+### **_Notes_**
+1. At the moment of this writing, the nfc nested attack on the flipper zero does not compile on purpose, api issues._
+2. I don't use git submodules, because I don't use the full repositories and I don't want to keep them.
+3. **Use under your own risk. It's pretty hardcoded.**
+
 # TODO
 - [ ] Add useful apps outside Xtreme Firmware (I have found none of my liking yet).
 - [X] Automatically download latest awesome-fz-pack collection using https://api.github.com/repos/unresolv/awesome-flipperzero-pack/releases
