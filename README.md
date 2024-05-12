@@ -1,4 +1,4 @@
-# awesome-flipper-zero's ordered (matta's pick)
+# awesome-flipper-zero's ordered dump (matta's pick)
 This repo is an experiment. I tries to compile curated and reproducible sources of information for the Flipper Zero.
 It starts by building the latest version of Xtreme Firmware, and then creates, a folder to be uploaded to the SD card.
 
