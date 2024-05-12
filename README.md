@@ -2,6 +2,11 @@
 This repo is an experiment. I tries to compile curated and reproducible sources of information for the Flipper Zero.
 It starts by building the latest version of Xtreme Firmware, and then creates, a folder to be uploaded to the SD card.
 
+## Usage
+- `mattschoice.sh`: Creates a folder named `dumps` based on the checklist below to be dumped directly into the SD card.
+- `awesome-pack-mess.sh`: Creates two folders with `microsd` string, from the awesome-flipperzero-pack to be put inside the SD card.
+- `xtreme-build.sh`: Builds the Xtreme-Firmware. Has a placeholder for custom apps.
+
 **Use under your own risk. It's pretty hardcoded.**
 **Requirements:** `wget`, `curl`, `7zq`
 # TODO

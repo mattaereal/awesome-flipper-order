@@ -6,8 +6,8 @@ git clone --recursive --jobs 8 https://github.com/Flipper-XFW/Xtreme-Firmware
 ##
 ##
 ##
-# cd Xtreme-Firmware/ && ./fbt updater_package
-# cd ..
+cd Xtreme-Firmware/ && ./fbt updater_package
+cd ..
 
 ## Create all the current necessary structure
 mkdir -p dumps/generic dumps/badusb dumps/infrared dumps/subghz dumps/scripts dumps/nfc
